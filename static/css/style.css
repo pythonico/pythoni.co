@@ -101,3 +101,23 @@ td { vertical-align: top; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+
+
+pre {
+    font-size: 6pt;
+    letter-spacing: 4px;
+    line-height: 8pt;
+    font-weight: bold;
+    background-color: white;
+    color: white;
+}
+
+a:link,a:visited {
+    text-decoration: none;
+    color:black ;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
