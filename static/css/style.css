@@ -118,6 +118,22 @@ a:link,a:visited {
     font-weight: bold;
 }
 
-a:hover{
+pre a:visited{
+    color:white;
+}
+pre a:link{
+    color:white;
+}
+
+pre a:hover{
     text-decoration: underline;
+    font-weight: bold;
+    background-color: black;
+    font-size: 100%;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+    font-size: 150%;
 }

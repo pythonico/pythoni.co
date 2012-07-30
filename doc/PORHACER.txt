@@ -1,0 +1,61 @@
+
+Personas
+========
+ 
+* Nombre
+* Github
+* Bitbucket
+* Linkedin
+* Twitter
+* Facebook
+* Ubicación
+* Contacto
+* Webpage
+* Avatar
+* CodeTagMe
+* Hirable
+* Rate/Hour
+* MiniBio
+
+Empresas
+========
+
+* 100 palabras
+* Dirección
+* Ubicación
+* Teléfono
+* Webpage
+* Logo
+* Hiring
+* Comentario : 
+
+Recursos
+========
+
+* Nivel : Comenzar, Migrar, Hacker, Manager
+* Descripción
+* Wikipedia
+* Enlace
+* Tipo : Video, Videotutorial, manual, tip, blog post, libro, Editor, Librería, Aplicación
+* Tags
+* FAQ 
+* Frases atrayentes
+
+Casos de éxito
+==============
+
+* Descripción
+* Enlaces
+* Tags
+
+Dump :
+
+Mecanismo para almacenar información que no deseamos se pierda, que todo el mundo debería poder descargar
+
+Estadísticas :
+
+Queremos saber qué está sucediendo con nuestro sitio
+
+Magia :
+
+Queremos que nuestro sitio sea atrayente, CSS, javascript e ideas son bienvenid@s
