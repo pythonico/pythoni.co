@@ -8,10 +8,15 @@ from flask import request
 from flask import current_app
 from flask import redirect
 from flask.ext.sqlalchemy import SQLAlchemy
+from flask.ext.admin import Admin
+from flask.ext.admin.contrib.sqlamodel import ModelView
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://pythonico:pythonico@localhost/pythonico'
+app.config['TESTING'] = True
+app.config['SECRET_KEY'] = 'Si, reemplazar es lo que se debe hacer'
 db = SQLAlchemy(app)
+admin = Admin(app, name='Pythonico')
 
 class Place(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -79,7 +84,10 @@ class Company(db.Model):
     def __repr__(self):
         return '<User %r>' % self.username
 
-
+admin.add_view(ModelView(Place, db.session))
+admin.add_view(ModelView(User, db.session))
+admin.add_view(ModelView(Event, db.session))
+admin.add_view(ModelView(Company, db.session))
 
 
 @app.route('/favicon.ico')
